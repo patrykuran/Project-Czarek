@@ -68,7 +68,7 @@ header img {
 .jumbotron {               
 	background-image: url("https://static.pexels.com/photos/108074/pexels-photo-108074.jpeg");
 	width: 100%;
-	height: 100vh;  /* a może dodać calc(100vh - 150px) ? dla tabletów i tel też tak jak dla desktopów?*/
+	height: 100vh;
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -173,7 +173,7 @@ header img {
 	text-align: center;
 	line-height: 200px;
 	position: absolute;
-	top: 0;       /*  ???? */
+	top: 0;
 	transition: .5s ease;
 	opacity: 1;
 	background-color: rgba(0,0,0, 0.5);
